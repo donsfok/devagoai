@@ -1,0 +1,20 @@
+<!-- Компонент для списка моделей, включаемый в основной шаблон -->
+<div class="models-container">
+    <div class="mb-3">
+        <h5>Доступные модели</h5>
+        <div id="models-list">
+            <!-- Список моделей будет добавлен динамически -->
+        </div>
+    </div>
+    
+    <div class="mt-4">
+        <h5>Загрузить новую модель</h5>
+        <div class="input-group">
+            <input type="text" class="form-control" id="model-name-input" placeholder="Имя модели (например, llama2)">
+            <button class="btn btn-primary" id="btn-pull-model">Загрузить</button>
+        </div>
+        <small class="text-muted">
+            Укажите имя модели из репозитория Ollama.
+        </small>
+    </div>
+</div>

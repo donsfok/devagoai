@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерфейс ИИ будущего</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome для иконок -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts - Roboto и Fira Code для кода -->
+
+    <!-- Container for notifications -->
+    <div id="toast-container" class="toast-container position-fixed top-0 end-0 p-3"></div>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CodeMirror для редактора кода -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/dracula.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/foldgutter.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/lint/lint.min.css" rel="stylesheet">
+    
+    <!-- xterm.js для терминала -->
+    <link href="https://cdn.jsdelivr.net/npm/xterm@4.19.0/css/xterm.css" rel="stylesheet">
+    
+    <!-- Sweetalert2 для красивых уведомлений -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.min.css" rel="stylesheet">
+    
+    <!-- Наши стили -->
+    <link href="/static/css/style.css?v={{ config.version }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Хедер -->
+    <header class="app-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="logo">
+                        <i class="fas fa-brain"></i>
+                        <span class="glow-text">Интерфейс ИИ будущего</span>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="me-4">
+                            <span class="badge bg-primary me-2" id="selected-model-badge" style="display: none;">
+                                Модель: <span id="selected-model">Не выбрана</span>
+                            </span>
+                            <span class="badge bg-success me-2" id="current-file-badge" style="display: none;">
+                                Файл: <span id="current-file-name">Не выбран</span>
+                            </span>
+                        </div>
+                        <div id="system-clock" class="me-3">00:00:00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Основное содержимое -->
+    <main class="container-fluid">
+        <div class="row full-height">
+            <!-- Левая панель -->
+            <div class="col-lg-5" id="left-panel">
+                <div class="panel-container neo-card">
+                    <!-- Вкладки -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="models-tab-btn" data-bs-toggle="tab" data-bs-target="#models-tab" type="button" role="tab">
+                                <i class="fas fa-cube"></i> Модели
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="prompt-tab-btn" data-bs-toggle="tab" data-bs-target="#prompt-tab" type="button" role="tab">
+                                <i class="fas fa-comment-alt"></i> Промпт
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="files-tab-btn" data-bs-toggle="tab" data-bs-target="#files-tab" type="button" role="tab">
+                                <i class="fas fa-folder"></i> Файлы
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="extensions-tab-btn" data-bs-toggle="tab" data-bs-target="#extensions-tab" type="button" role="tab">
+                                <i class="fas fa-puzzle-piece"></i> Расширения
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Содержимое вкладок -->
+                    <div class="tab-content p-3" style="height: calc(100% - 42px);">
+                        <!-- Вкладка моделей -->
+                        <div class="tab-pane fade show active" id="models-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="mb-0">Доступные модели</h5>
+                                <button class="btn btn-sm btn-neo btn-refresh" data-target="models">
+                                    <i class="fas fa-sync-alt"></i> Обновить
+                                </button>
+                            </div>
+                            
+                            <div id="models-container" class="mb-3">
+                                <div class="text-center py-4">
+                                    <div class="spinner"></div>
+                                    <p class="mt-2">Загрузка моделей...</p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4">
+                                <h5>Загрузить новую модель</h5>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="model-name-input" placeholder="Имя модели (например, llama2)">
+                                    <button class="btn btn-neo" id="btn-pull-model">Загрузить</button>
+                                </div>
+                                <small class="text-muted">
+                                    Укажите имя модели из репозитория Ollama. 
+                                    <a href="https://ollama.ai/library" target="_blank">Посмотреть доступные модели</a>
+                                </small>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка промпта -->
+                        <div class="tab-pane fade" id="prompt-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="mb-0">Отправка запроса модели</h5>
+                                <input type="hidden" id="current-model" value="">
+                            </div>
+                            
+                            <div class="form-group mb-3">
+                                <label for="prompt-input" class="form-label">Введите запрос:</label>
+                                <textarea class="form-control" id="prompt-input" rows="5" placeholder="Введите текст запроса для модели..."></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <button class="btn btn-neo" id="btn-send-prompt">
+                                    <i class="fas fa-paper-plane"></i> Отправить
+                                </button>
+                            </div>
+                            
+                            <div class="mt-3">
+                                <label class="form-label">Ответ модели:</label>
+                                <div class="p-3 neo-card" id="model-response" style="max-height: 300px; overflow-y: auto;">
+                                    <div class="text-center py-3 text-muted">
+                                        <i class="fas fa-robot fa-2x mb-2"></i>
+                                        <p>Здесь будет отображен ответ модели</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка файлов -->
+                        <div class="tab-pane fade" id="files-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="mb-0">Файловый проводник</h5>
+                                <div>
+                                    <button class="btn btn-sm btn-neo me-2" id="btn-view-self-code">
+                                        <i class="fas fa-code"></i> Код программы
+                                    </button>
+                                    <button class="btn btn-sm btn-neo btn-refresh" data-target="files">
+                                        <i class="fas fa-sync-alt"></i> Обновить
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <input type="hidden" id="file-path" value=".">
+                            
+                            <div id="file-list" class="mb-3">
+                                <div class="text-center py-4">
+                                    <div class="spinner"></div>
+                                    <p class="mt-2">Загрузка файлов...</p>
+                                </div>
+                            </div>
+                            
+                            <div id="file-explorer" class="mt-3">
+                                <!-- Содержимое будет заполнено динамически -->
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка расширений -->
+                        <div class="tab-pane fade" id="extensions-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h5 class="mb-0">Расширения</h5>
+                                <div>
+                                    <button class="btn btn-sm btn-neo me-2" id="btn-create-extension">
+                                        <i class="fas fa-plus"></i> Новое расширение
+                                    </button>
+                                    <button class="btn btn-sm btn-neo btn-refresh" data-target="extensions">
+                                        <i class="fas fa-sync-alt"></i> Обновить
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div id="extensions-container" class="mb-3">
+                                <div class="text-center py-4">
+                                    <div class="spinner"></div>
+                                    <p class="mt-2">Загрузка расширений...</p>
+                                </div>
+                            </div>
+                            
+                            <div class="alert alert-info mt-3">
+                                <h6><i class="fas fa-info-circle me-2"></i>О модульной системе</h6>
+                                <p class="mb-0 small">
+                                    Расширения позволяют добавлять новую функциональность без изменения основного кода.
+                                    Каждое расширение работает в своей области и может быть включено или выключено по необходимости.
+                                    Для редактирования кода расширения используйте файловый проводник.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Правая панель -->
+            <div class="col-lg-7" id="right-panel">
+                <div class="panel-container h-100">
+                    <!-- Вкладки -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="editor-tab-btn" data-bs-toggle="tab" data-bs-target="#editor-tab" type="button" role="tab">
+                                <i class="fas fa-code"></i> Редактор
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="terminal-tab-btn" data-bs-toggle="tab" data-bs-target="#terminal-tab" type="button" role="tab">
+                                <i class="fas fa-terminal"></i> Терминал
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="logs-tab-btn" data-bs-toggle="tab" data-bs-target="#logs-tab" type="button" role="tab">
+                                <i class="fas fa-list"></i> Логи
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="monitor-tab-btn" data-bs-toggle="tab" data-bs-target="#monitor-tab" type="button" role="tab">
+                                <i class="fas fa-chart-line"></i> Монитор
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Содержимое вкладок -->
+                    <div class="tab-content" style="height: calc(100% - 42px);">
+                        <!-- Вкладка редактора -->
+                        <div class="tab-pane fade show active h-100" id="editor-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center p-2">
+                                <input type="hidden" id="current-file-path" value="">
+                                <div>
+                                    <button class="btn btn-sm btn-neo me-2" id="btn-save-file" disabled>
+                                        <i class="fas fa-save"></i> Сохранить
+                                    </button>
+                                    <button class="btn btn-sm btn-neo" id="btn-generate-code">
+                                        <i class="fas fa-magic"></i> Генерировать код
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="editor-container" class="editor-container h-100">
+                                <div id="editor"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка терминала -->
+                        <div class="tab-pane fade h-100" id="terminal-tab" role="tabpanel">
+                            <div class="terminal-container h-100">
+                                <div id="terminal"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка логов -->
+                        <div class="tab-pane fade" id="logs-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center p-2">
+                                <h5 class="mb-0">Журнал событий</h5>
+                                <button class="btn btn-sm btn-neo btn-refresh" data-target="logs">
+                                    <i class="fas fa-sync-alt"></i> Обновить
+                                </button>
+                            </div>
+                            <div id="logs-container" class="logs-container">
+                                <div class="text-center py-4">
+                                    <div class="spinner"></div>
+                                    <p class="mt-2">Загрузка журнала...</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Вкладка системного монитора -->
+                        <div class="tab-pane fade h-100" id="monitor-tab" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center p-2">
+                                <h5 class="mb-0">Системный монитор</h5>
+                                <button class="btn btn-sm btn-neo" onclick="loadSystemInfo()">
+                                    <i class="fas fa-sync-alt"></i> Обновить
+                                </button>
+                            </div>
+                            <div class="p-2 h-100 overflow-auto">
+                                {% include 'components/system_monitor.html' %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Подвал -->
+    <footer class="mt-3 p-3 text-center text-muted">
+        <small>Интерфейс ИИ будущего &copy; 2023</small>
+    </footer>
+    
+    <!-- JavaScript -->
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- SplitJS для разделения панелей -->
+    <script src="https://cdn.jsdelivr.net/npm/split.js@1.6.5/dist/split.min.js"></script>
+    
+    <!-- CodeMirror для редактора кода -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/python/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/xml/xml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/matchbrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/foldcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/fold/foldgutter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/search/searchcursor.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/selection/active-line.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/keymap/sublime.min.js"></script>
+    
+    <!-- xterm.js для терминала -->
+    <script src="https://cdn.jsdelivr.net/npm/xterm@4.19.0/lib/xterm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.5.0/lib/xterm-addon-fit.js"></script>
+    
+    <!-- Sweetalert2 для красивых уведомлений -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+    
+    <!-- Наши скрипты -->
+    <script src="/static/js/utils.js"></script>
+    <script src="/static/js/terminal.js"></script>
+    <script src="/static/js/editor.js"></script>
+    <script src="/static/js/ollama.js"></script>
+    <script src="/static/js/extensions.js"></script>
+    <script src="/static/js/system_monitor.js"></script>
+    <script src="/static/js/main.js?v={{ config.version }}"></script>
+</body>
+</html>

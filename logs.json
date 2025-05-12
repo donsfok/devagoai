@@ -1,0 +1,638 @@
+[
+  {
+    "action": "get_models",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0441 Ollama API: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbe2ccff90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:34:32.014527"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:34:32.015848"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:34:39.437969"
+  },
+  {
+    "action": "get_models",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0441 Ollama API: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbe2a3fc90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:34:39.440664"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:50.234411"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:50.853535"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:51.591282"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:52.642154"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: controllers",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:54.239435"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:56.026280"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T19:38:58.004194"
+  },
+  {
+    "action": "get_models",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0441 Ollama API: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbe2a3eb50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:40:00.809115"
+  },
+  {
+    "action": "get_models",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0441 Ollama API: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbe2a48a50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:40:01.702523"
+  },
+  {
+    "action": "get_models",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0441 Ollama API: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbe2a31790>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:40:02.253436"
+  },
+  {
+    "action": "get_models",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u044f \u0441 Ollama API: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbe2a3db10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:40:03.125158"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:53:03.382830"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f60c2c5abd0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:53:03.390308"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:54:18.512156"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff145b7ed90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:54:18.518503"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:56:06.731096"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbabde82e10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:56:06.737978"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:57:11.683106"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f461e7c01d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:57:11.689648"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:57:26.999936"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f461e6df110>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:57:27.021882"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T19:57:28.653366"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f461e6df510>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T19:57:28.659003"
+  },
+  {
+    "action": "terminal_command",
+    "details": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b: hello",
+    "status": "info",
+    "timestamp": "2025-05-12T19:59:21.209964"
+  },
+  {
+    "action": "terminal_command",
+    "details": "\u0417\u0430\u043f\u0440\u0435\u0449\u0435\u043d\u043d\u0430\u044f \u043a\u043e\u043c\u0430\u043d\u0434\u0430: hello",
+    "status": "warning",
+    "timestamp": "2025-05-12T19:59:21.212783"
+  },
+  {
+    "action": "terminal_command",
+    "details": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b: start",
+    "status": "info",
+    "timestamp": "2025-05-12T19:59:25.888136"
+  },
+  {
+    "action": "terminal_command",
+    "details": "\u0417\u0430\u043f\u0440\u0435\u0449\u0435\u043d\u043d\u0430\u044f \u043a\u043e\u043c\u0430\u043d\u0434\u0430: start",
+    "status": "warning",
+    "timestamp": "2025-05-12T19:59:25.888619"
+  },
+  {
+    "action": "terminal_command",
+    "details": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b: echo hello",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:12.506616"
+  },
+  {
+    "action": "terminal_command",
+    "details": "\u041a\u043e\u043c\u0430\u043d\u0434\u0430 echo hello \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430",
+    "status": "success",
+    "timestamp": "2025-05-12T20:00:12.515376"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:20.246141"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:21.717039"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:24.898699"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:25.921777"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:26.536240"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:27.158952"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:27.715972"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:28.290509"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:44.532640"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:45.606198"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:46.523226"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:47.094001"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: ",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:47.657389"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:00:48.548455"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f461e6df210>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:00:58.870766"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:03:56.106031"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb91c13fb50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:03:56.112920"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u044f system_monitor: No module named 'psutil'",
+    "status": "error",
+    "timestamp": "2025-05-12T20:06:03.104293"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:06:03.369967"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa5b52c5d90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:06:03.385732"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:06:29.177190"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:08:20.691250"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:08:20.983104"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f311cd7e110>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:08:20.995285"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:09:05.636048"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f311c3bad10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:09:05.647552"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:09:07.304361"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f311c3c9f90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:09:07.310788"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:13:33.064036"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:13:34.522748"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdbeac72990>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:13:34.533361"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:14:37.451700"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:14:39.114472"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c\u0441\u044f \u043a Ollama API \u043f\u043e \u0430\u0434\u0440\u0435\u0441\u0443 http://localhost:11434: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f208ef82810>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:14:39.122926"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:19:34.051023"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:19:37.804933"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f409f4c2350>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:19:39.782756"
+  },
+  {
+    "action": "list_files",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0434\u043b\u044f \u043f\u0443\u0442\u0438: .",
+    "status": "info",
+    "timestamp": "2025-05-12T20:19:39.866738"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:21:07.512241"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:21:08.357780"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:21:08.967485"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:21:10.853546"
+  },
+  {
+    "action": "get_self_code",
+    "details": "\u041f\u043e\u043b\u0443\u0447\u0435\u043d \u0441\u043f\u0438\u0441\u043e\u043a \u0444\u0430\u0439\u043b\u043e\u0432 \u0438\u0441\u0445\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u043e\u0434\u0430",
+    "status": "info",
+    "timestamp": "2025-05-12T20:21:12.788320"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:32:48.758508"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f355ca3c810>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:32:50.601172"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:34:01.575546"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:34:07.461124"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7febebb5b410>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:34:09.046892"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:36:01.590855"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:36:07.182733"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6666256250>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:36:09.845934"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:36:13.312110"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf3633af90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:36:15.060926"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf36348a10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:36:15.178022"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:37:11.420954"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7faafdb25c10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:37:13.009395"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:38:39.133552"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f69943f4d10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:38:40.729736"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:40:19.103401"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:40:25.230410"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7e444aea90>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:40:26.793008"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:43:01.704679"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9045b14f50>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:43:03.323469"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:44:22.457995"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc82646a2d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:44:24.077844"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:45:18.952953"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe2a8c66150>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:45:20.553554"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:46:06.935634"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8d92926e10>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:46:08.576334"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:47:30.947546"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fca36fb24d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:47:32.463301"
+  },
+  {
+    "action": "load_extension",
+    "details": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u041c\u043e\u043d\u0438\u0442\u043e\u0440 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043e",
+    "status": "success",
+    "timestamp": "2025-05-12T20:48:29.592979"
+  },
+  {
+    "action": "check_status",
+    "details": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/version (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4cd20dc0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",
+    "status": "error",
+    "timestamp": "2025-05-12T20:48:31.117082"
+  }
+]

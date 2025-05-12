@@ -1,0 +1,8 @@
+{
+    "id": "system_monitor",
+    "name": "Монитор системы",
+    "version": "0.1.0",
+    "description": "Расширение для мониторинга системных ресурсов и процессов",
+    "author": "AI Future Interface",
+    "enabled": true
+}
